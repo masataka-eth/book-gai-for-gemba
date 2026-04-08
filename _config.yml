@@ -1,0 +1,25 @@
+title: 生成AIは現場から入れろ
+description: 机上のDXで終わらせない、現場に定着する導入の考え方 — 黛 政隆
+author: 黛 政隆
+lang: ja-JP
+timezone: Asia/Tokyo
+
+# GitHub Pages 標準テーマ (軽量・日本語OK)
+theme: jekyll-theme-cayman
+
+# マークダウンエンジン
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# ビルド対象から除外
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .gitignore
